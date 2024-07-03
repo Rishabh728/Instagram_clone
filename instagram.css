@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+section{
+    /* border: 1px solid black; */
+    /* background-color: bisque; */
+    height: 750px;
+    width: 100vw;
+    display: grid;
+    grid-template-rows:  8fr 2fr;
+    grid-template-columns:  2fr 2.2fr 2fr 2fr;
+    
+}
+
+section .leftSide{
+    /* background-color: blue;  */
+    /* background-color: rgb(193, 139, 244); */
+    
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url(./IMAGES/insta.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+section .leftSide #animationtag{
+    /* border: solid red; */
+    border-radius: 20px;
+    height: 460px;
+    width: 225px;
+    margin-left: 110px;
+    margin-top: 45px;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+    0%{
+        background-image: url(./IMAGES/screenshot1.png);
+    }
+    33%{
+        background-image: url(./IMAGES/screenshot2.png);
+    }
+    66%{
+        background-image: url(./IMAGES/screenshot3.png);
+    }
+    100%{
+        background-image: url(./IMAGES/screenshot4.png);
+    }
+}
+
+section .rightSide{
+    /* background-color: brown; */
+    grid-row: 1;
+    grid-column: 3;
+}
+
+section .footer{
+    /* background-color: rgb(114, 114, 215); */
+    grid-row: 2;
+    grid-column: 2/4;
+}
+section #input_part{
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 10px;
+    /* border: solid rgb(0, 0, 237); */
+    /* background-color: aquamarine; */
+    height: 75%;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+section #input_part p{
+    /* border: 1px dotted red; */
+    height: 50px;
+    width: 170px;
+    background-image: url(./IMAGES/insatgam\ name.png);
+    background-size: contain;
+    margin: auto;
+    margin-top: 50px;
+}
+
+section #input_part input{
+    height: 40px;
+    width: 280px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.973);
+    
+}
+
+section #input_part #logIn{
+    border-radius: 10px;
+    height: 35px;
+    width: 280px;
+    margin-top: 22px;
+    background-color: rgba(0, 132, 255, 0.714);
+    color: white;
+    border: transparent;
+}
+
+section #input_part span{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    
+}
+
+
+section #input_part a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0px;
+}
+section #input_part a i{
+    margin-right: 5px;
+}
+
+section #signUp{
+    border: 0.5px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 50px;
+    margin-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: transparent;
+}
+
+section #get{
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+section #buttonIcon{
+    display: flex;
+    /* border: solid blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+section .footer{
+    margin-top: 50px;
+    text-align: center;
+}  
+
+    
+
