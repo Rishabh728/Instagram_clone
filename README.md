@@ -1,4 +1,4 @@
-# Instagram_clone
+# Instagram_LandingPage
 # VS code
 1. Create a Image folder
 2. copy all images, gif, video, tag to Image folder
